@@ -23,28 +23,26 @@
     </properties>
 
     <dependencies>
-
-        <!-- 🌐 Spring Boot Web -->
+        <!-- Spring Boot Web -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
-        <!-- 🗃️ Spring Data JPA -->
+        <!-- Spring Data JPA -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- 🐬 MySQL Driver (for MySQL 8.0.44) -->
+        <!-- MariaDB JDBC Driver -->
         <dependency>
-            <groupId>com.mysql</groupId>
-            <artifactId>mysql-connector-j</artifactId>
-            <version>9.1.0</version>
-            <scope>runtime</scope>
+            <groupId>org.mariadb.jdbc</groupId>
+            <artifactId>mariadb-java-client</artifactId>
+            <version>3.3.3</version>
         </dependency>
 
-        <!-- ♻️ Spring Boot DevTools (optional hot reload) -->
+        <!-- Spring Boot DevTools (optional for hot reload) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
@@ -52,13 +50,12 @@
             <optional>true</optional>
         </dependency>
 
-        <!-- 🧪 Testing -->
+        <!-- Testing -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
