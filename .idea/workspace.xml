@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93bf7d7f-ae1a-4ee6-83c3-7f25a5e7cf47" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/HomeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/JA3FingerprintController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/entity/JA3Fingerprint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/repository/JA3FingerprintRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/JA3FingerprintServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/TrafficSimulatorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/DTO/MIDecisionResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/DTO/MIRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/MLClientService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/Ja3idsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/Ja3idsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/TestController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/TestDbController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/entity/TestEntity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/repository/TestEntityRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/runner/TestRunner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ja3ids/src/test/java/com/IDS/ja3ids/Ja3idsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/JA3FingerprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/JA3FingerprintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/JA3FingerprintServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/JA3FingerprintServices.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/ml-ids&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_directory_selection&quot;: &quot;C:/Users/hp/Downloads/ja3ids/ja3ids/src/main/java&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/hp/Downloads/ja3ids/ja3ids/src/main/resources&quot;,
@@ -75,6 +64,26 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.IDS.ja3ids.controller" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Ja3idsApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.IDS.ja3ids.Ja3idsApplication" />
+      <module name="ja3ids" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.IDS.ja3ids.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Ja3idsApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
