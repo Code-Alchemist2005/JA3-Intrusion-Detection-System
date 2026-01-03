@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JA3 IDS Live Dashboard</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f172a, #020617);
+            font-family: Arial, sans-serif;
+            color: #e5e7eb;
+            padding: 40px;
+        }
+        .card {
+            background: #020617;
+            border: 1px solid #1e293b;
+            border-radius: 12px;
+            padding: 24px;
+            width: 420px;
+            box-shadow: 0 0 20px rgba(56,189,248,0.15);
+        }
+        h1 {
+            color: #38bdf8;
+            margin-bottom: 20px;
+        }
+        .row {
+            margin: 8px 0;
+        }
+        .label {
+            font-weight: bold;
+            color: #94a3b8;
+        }
+        .value {
+            color: #e5e7eb;
+        }
+        .BLOCKED { color: #ef4444; }
+        .OK { color: #22c55e; }
+    </style>
+</head>
+<body>
+
+<h1>🚨 JA3 IDS Live Dashboard</h1>
+
+<div class="card">
+    <div class="row"><span class="label">JA3 Hash:</span> <span id="ja3" class="value">-</span></div>
+    <div class="row"><span class="label">Hits:</span> <span id="hits" class="value">-</span></div>
+    <div class="row"><span class="label">Threat Level:</span> <span id="threat" class="value">-</span></div>
+    <div class="row"><span class="label">Status:</span> <span id="status" class="value">-</span></div>
+    <div class="row"><span class="label">Message:</span> <span id="message" class="value">-</span></div>
+</div>
+
+<script>
+    async function loadLatest() {
+        try {
+            const res = await fetch('/api/ja3/latest');
+            const data = await res.json();
+
+            if (!data || !data.ja3Hash) return;
+
+            document.getElementById('ja3').textContent = data.ja3Hash;
+            document.getElementById('hits').textContent = data.hits;
+            document.getElementById('threat').textContent = data.threatLevel;
+            document.getElementById('status').textContent = data.status;
+            document.getElementById('message').textContent = data.message;
+
+            document.getElementById('status').className =
+                'value ' + data.status;
+
+        } catch (e) {
+            console.error(e);
+        }
+    }
+
+    // 🔁 REFRESH EVERY 2 SECONDS
+    setInterval(loadLatest, 2000);
+    loadLatest();
+</script>
+
+</body>
+</html>
