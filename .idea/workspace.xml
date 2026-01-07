@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93bf7d7f-ae1a-4ee6-83c3-7f25a5e7cf47" name="Changes" comment="" />
+    <list default="true" id="93bf7d7f-ae1a-4ee6-83c3-7f25a5e7cf47" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/static/css/dashboard.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/static/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/static/js/charts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/static/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/static/libs/chart.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/JA3FingerprintController.java" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/controller/JA3FingerprintController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/JA3FingerprintServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/src/main/java/com/IDS/ja3ids/services/JA3FingerprintServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ja3ids/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/ja3ids/src/main/resources/static/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +34,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="33jASVtokA6jd1U2FpCNW8NmRe5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
